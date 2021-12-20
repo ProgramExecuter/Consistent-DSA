@@ -8,7 +8,7 @@ public:
         int i = 0, j = 0;
         
         while(i < n  &&  j < m) {
-            cout<<i<<name[i]<<"  "<<j<<typed[j]<<endl;
+            
             // If the CHARS of positions don't match
             if(name[i] != typed[j]) {
                 
