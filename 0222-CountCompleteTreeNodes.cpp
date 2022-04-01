@@ -24,7 +24,7 @@ public:
             return (pow(2, lh+1)-1);    // No. of elements of complete BT
         }
         
-        // Not a complete BT
+        // Not a complete Binary Tree
         int left  = countNodes(root->left);
         int right = countNodes(root->right);
         
