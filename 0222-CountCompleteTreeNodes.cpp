@@ -28,6 +28,6 @@ public:
         int left  = countNodes(root->left);
         int right = countNodes(root->right);
         
-        return (1 + left + right);          // No of elements = cnt of left-ele + cnt of right-ele + 1(root element)
+        return (1 + left + right);      // No of elements = cnt of left-ele + cnt of right-ele + 1(root element)
     }
 };
